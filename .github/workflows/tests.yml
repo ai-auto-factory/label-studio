@@ -62,7 +62,7 @@ jobs:
           pip install -e .
 
       - name: Setup node
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v3.1.0
         with:
           node-version: "${{ env.NODE }}"
 
@@ -174,7 +174,7 @@ jobs:
           pip install -e .
 
       - name: Setup node
-        uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v3.1.0
         with:
           node-version: 14
 
